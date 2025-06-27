@@ -1,0 +1,35 @@
+{
+  "name": "sqlserver-restapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "start:All": "concurrently \"npm:start\" \"cd ../EcoStore && npm run start\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mssql": "^10.0.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.0.3"
+  },
+  "pkg": {
+  "assets": [
+    "database/*.json"
+  ]
+}
+,
+  "description": ""
+  
+}

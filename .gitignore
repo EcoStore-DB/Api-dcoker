@@ -1,0 +1,24 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de configuración local
+.env
+.env.local
+.env.*.local
+
+# Directorios de compilación
+dist/
+build/
+
+# Archivos de bloqueo
+package-lock.json
+yarn.lock
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
